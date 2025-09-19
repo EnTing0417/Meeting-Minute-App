@@ -1,0 +1,6 @@
+flask
+pyaudio
+SpeechRecognition
+python-docx
+fpdf
+pydub

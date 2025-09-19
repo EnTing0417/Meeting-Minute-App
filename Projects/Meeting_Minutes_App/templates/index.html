@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Meeting Minutes Web App</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <h1>Professional Meeting Minutes Generator</h1>
+    <form method="POST" enctype="multipart/form-data">
+        <label>Upload Audio File:</label>
+        <input type="file" name="audio_file" accept="audio/*" required><br><br>
+        <label>Export Format:</label>
+        <select name="format">
+            <option value="docx">Word (.docx)</option>
+            <option value="pdf">PDF (.pdf)</option>
+        </select><br><br>
+        <button type="submit">Generate Agenda</button>
+    </form>
+</body>
+</html>
